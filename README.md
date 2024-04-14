@@ -26,3 +26,11 @@
 12. "09-Proposed-Model.ipynb" includes the proposed model from the original paper, which uses 1D convolutional layers as a feature extractor on medical entities obtained from step 8. Run "09-Proposed-Model.ipynb" to train the model and evaluates its performance on the 4 tasks.
 
 13. Run "load_print_results.ipynb" to organize the result obtained from the previous steps and produce comparisons among different models as well as comparing the results the to those from the original paper. 
+
+
+# References
+- MIMIC-III dataset via https://mimic.physionet.org/
+- MIMIC-Extract implementation: https://github.com/MLforHealth/MIMIC_Extract
+- med7 implementation: https://github.com/kormilitzin/med7
+- Download Pre-trained Word2Vec & FastText embeddings: https://github.com/kexinhuang12345/clinicalBERT
+- Preprocessing Script: https://github.com/kaggarwal/ClinicalNotesICU
